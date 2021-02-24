@@ -4,7 +4,7 @@ import requests
 
 
 def checknet():
-    url = "http://show.upwill.cn/link.html"
+    url = "http://www.baidu.com"
     try:
         res = requests.get(url)
         if res.status_code == 200:
